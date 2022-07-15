@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crafting an Interpreter</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body {
+        font-family: 'Droid Serif';
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      hr {
+        border: 0;
+        height: 1px;
+        background: #333;
+      }
+      .hljs-default .hljs {
+        background: rgb(250, 250, 250);
+      }
+      .remark-code {
+        border: 1px solid rgb(200, 200, 200);
+      }
+      .remark-code, .remark-inline-code {
+        font-family: 'Ubuntu Mono';
+        background: rgb(250, 250, 250);
+        border-radius: 5px;
+      }
+      .quiz .remark-code, .quiz .remark-inline-code {
+        font-family: 'Ubuntu Mono';
+        background: rgb(226, 248, 255);
+        border-radius: 5px;
+      }
+      img {
+        width: 100%;
+      }
+      .gray {
+        background: #EDEAE8;
+        color: rgb(224, 236, 255);
+      }
+      .quiz {
+        background: rgb(236, 251, 255);
+        color: rgb(5, 42, 103);
+      }
+      .gray * {
+        color: #494745;
+        line-height: 0.8em;
+      }
+      .gray .remark-code, .gray .remark-inline-code {
+        font-family: 'Ubuntu Mono';
+        background: #eccbd6;
+        border-radius: 5px;
+        color: black;
+      }
+      .pull-left {
+        float: left;
+        width: 48%;
+      }
+      .pull-right {
+        float: right;
+        width: 48%;
+      }
+      .pull-right ~ p {
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source"></textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+        sourceUrl: 'notes.md'
+      });
+    </script>
+  </body>
+</html>
